@@ -1,64 +1,110 @@
+.banner-img {
+  background-image: url("images/banner-bg.jpg");
+  width: 500px;
+  height: 250px;
+  object-fit: 100% 50%;
+  border-radius: 20px;
+  padding: 20px;
+}
+.container {
+  background-color: #27292a;
+  width: 600px;
+  padding: 20px;
+  border-radius: 20px;
+}
+.banner > h6 {
+  font-size: 15px;
+  color: #ffff;
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+.banner > h4 > em {
+  font-size: 30px;
+  font-weight: bold;
+  color: #ffff;
+  font-style: normal;
+}
+.banner > h4 {
+  text-transform: uppercase;
+  font-size: 30px;
+  color: #ffff;
+  margin-bottom: 20px;
+  width: 100%;
+}
+.banner > button {
+  text-transform: uppercase;
+  background-color: #e75e8d;
+  color: #ffff;
+  border-radius: 20px;
+  padding: 7px 20px;
+  font-size: 10px;
+}
+.most-popular {
+  background-color: #1f2122;
+  width: 500px;
+  padding: 20px;
+  display: inline-block;
+  border-radius: 20px;
+}
+.heading-section > h4 {
+  text-align: left;
+  color: #e75e8d;
+}
+.heading-section{
+    margin-bottom: 20px;
+}
+.heading-section > h4 > em {
+  color: #ffff;
+  font-style: normal;
+  text-decoration: underline;
+}
+.most-popular >div >div> .card > .card-body > img {
+  object-fit: contain;
+  border-radius: 10px;
+}
+.most-popular >div >div> .card {
+  background-color: #27292a;
+  border-radius: 20px;
+  color: #ffff;
+  font-size: 15px;
+}
+.most-popular >div >div> .card > .card-footer > div:nth-child(2)>span:nth-child(1){
+    font-weight: 300;
+    color: #757575;
+}
+.most-popular >div>div> .card > .card-footer > div:nth-child(1) > i {
+  color: gold;
+}
+@media screen and (max-width: 615px) {
+  .container {
+    width: 99%;
+  }
+  .banner {
+    width: 80vw;
+  }
+  .most-popular >div >div> .card{
+    padding: 30px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .banner > h4 {
+    width: 300px;
+    text-align: center;
+  }
+  .banner {
+    text-align: center;
+  }
+}
+@media screen and (min-width: 809px) {
+  #myh4 {
+    text-align: left;
+  }
 
-.banner{
-    background-image: url("images/banner-bg.jpg");
-    width: 500px;
-    height: 250px;
-    object-fit:100% 50%;
-    border-radius: 20px;
-    padding: 20px;
 }
-.container{
-    background-color: #27292a;
-    width: 600px;
-    padding: 20px;
-    border-radius: 20px;
-}
-.banner>h6{
-    font-size: 15px;
-    color: #ffff;
-    font-weight: 400;
-    margin-bottom: 20px;
-}
-.banner>h4>em{
-    font-size: 30px;
-    font-weight: bold;
-    color: #ffff;
-    font-style: normal;
-}
-.banner>h4{
-    text-transform: uppercase;
-    font-size: 30px;
-    color: #ffff;
-    margin-bottom: 20px;
-}
-.banner>button{
-    text-transform: uppercase;
-    background-color: #e75e8d;
-    color: #ffff;
-    border-radius: 20px;
-    padding: 7px 20px;
-    font-size: 10px;
-}
-@media screen and (max-width:615px)    {
-    .container{
-        width: 99%;
-    }
-    .banner{
-        width: 80vw;
-    }
-}
-@media screen and (max-width:767px){
-    .banner>h4{
-        width: 300px;
-        text-align: center;
-    }
-    .banner{
-        text-align: center;
-    }
-}
-@media screen and (min-width:809px){
-    #myh4{
-        width: 600px;
-        text-align: left;
-    }
+@media screen and (min-width:991px) {
+    .most-popular >div >div> .card {
+    
+        font-size: 10px;
+        padding: 5px;
+      }
 }
