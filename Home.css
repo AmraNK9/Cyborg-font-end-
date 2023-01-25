@@ -51,30 +51,36 @@
   text-align: left;
   color: #e75e8d;
 }
-.heading-section{
-    margin-bottom: 20px;
+.heading-section {
+  margin-bottom: 20px;
 }
 .heading-section > h4 > em {
   color: #ffff;
   font-style: normal;
   text-decoration: underline;
 }
-.most-popular >div >div> .card > .card-body > img {
+.most-popular > div > div > .card > .card-body > img {
   object-fit: contain;
   border-radius: 10px;
 }
-.most-popular >div >div> .card {
+.most-popular > div > div > .card {
   background-color: #27292a;
   border-radius: 20px;
   color: #ffff;
   font-size: 15px;
   width: 90%;
 }
-.most-popular >div >div> .card > .card-footer > div:nth-child(2)>span:nth-child(1){
-    font-weight: 300;
-    color: #757575;
+.most-popular
+  > div
+  > div
+  > .card
+  > .card-footer
+  > div:nth-child(2)
+  > span:nth-child(1) {
+  font-weight: 300;
+  color: #757575;
 }
-.most-popular >div>div> .card > .card-footer > div:nth-child(1) > i {
+.most-popular > div > div > .card > .card-footer > div:nth-child(1) > i {
   color: gold;
 }
 @media screen and (max-width: 615px) {
@@ -84,7 +90,7 @@
   .banner {
     width: 80vw;
   }
-  .most-popular >div >div> .card{
+  .most-popular > div > div > .card {
     padding: 30px;
   }
 }
@@ -96,17 +102,18 @@
   .banner {
     text-align: center;
   }
+  .most-popular > div > div > .card {
+    width: 100%;
+  }
 }
 @media screen and (min-width: 809px) {
   #myh4 {
     text-align: left;
   }
-
 }
-@media screen and (min-width:991px) {
-    .most-popular >div >div> .card {
-    
-        font-size: 10px;
-        padding: 5px;
-      }
+@media screen and (min-width: 991px) {
+  .most-popular > div > div > .card {
+    font-size: 10px;
+    padding: 5px;
+  }
 }
