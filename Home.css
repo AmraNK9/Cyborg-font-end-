@@ -1,0 +1,64 @@
+
+.banner{
+    background-image: url("images/banner-bg.jpg");
+    width: 500px;
+    height: 250px;
+    object-fit:100% 50%;
+    border-radius: 20px;
+    padding: 20px;
+}
+.container{
+    background-color: #27292a;
+    width: 600px;
+    padding: 20px;
+    border-radius: 20px;
+}
+.banner>h6{
+    font-size: 15px;
+    color: #ffff;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+.banner>h4>em{
+    font-size: 30px;
+    font-weight: bold;
+    color: #ffff;
+    font-style: normal;
+}
+.banner>h4{
+    text-transform: uppercase;
+    font-size: 30px;
+    color: #ffff;
+    margin-bottom: 20px;
+}
+.banner>button{
+    text-transform: uppercase;
+    background-color: #e75e8d;
+    color: #ffff;
+    border-radius: 20px;
+    padding: 7px 20px;
+    font-size: 10px;
+}
+@media screen and (max-width:615px)    {
+    .container{
+        width: 99%;
+    }
+    .banner{
+        width: 80vw;
+    }
+}
+@media screen and (max-width:767px){
+    .banner>h4{
+        width: 300px;
+        text-align: center;
+    }
+    .banner{
+        text-align: center;
+    }
+}
+@media screen and (min-width:809px){
+    #myh4{
+        width: 600px;
+        text-align: left;
+    }
+}
