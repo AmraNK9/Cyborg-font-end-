@@ -83,6 +83,21 @@
 .most-popular > div > div > .card > .card-footer > div:nth-child(1) > i {
   color: gold;
 }
+.mb-negative{
+  position: absolute;
+  bottom: -33px;
+}
+.mb-negative>button{
+  background-color: #e75e8d;
+  color: #ffff;
+  border-radius: 10px;
+  padding: 2px 20px;
+  font-size: 10px;
+}
+.mb-negative>button:hover{
+  color: #e75e8d;
+  background-color: #ffff;
+}
 @media screen and (max-width: 615px) {
   .container {
     width: 99%;
