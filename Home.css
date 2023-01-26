@@ -1,7 +1,10 @@
+body{
+  background-color: #1f2122;
+}
 .banner-img {
   background-image: url("images/banner-bg.jpg");
   width: 500px;
-  height: 250px;
+  height: 350px;
   object-fit: 100% 50%;
   border-radius: 20px;
   padding: 20px;
@@ -23,28 +26,45 @@
   color: #ffff;
   font-weight: 400;
   margin-bottom: 20px;
+  font-family: 'Courier New', Courier, monospace;
 }
 .banner > h4 > em {
-  font-size: 30px;
-  font-weight: bold;
+  font-size: 40px;
+  font-weight: bolder;
   color: #ffff;
   font-style: normal;
 }
 .banner > h4 {
   text-transform: uppercase;
-  font-size: 30px;
+  font-size: 40px;
   color: #ffff;
   margin-bottom: 20px;
   width: 100%;
+  font-weight: bold;
 }
 .banner > button {
   text-transform: uppercase;
   background-color: #e75e8d;
   color: #ffff;
   border-radius: 20px;
-  padding: 7px 20px;
+  padding: 15px 20px;
   font-size: 10px;
+  border: none;
 }
+.banner  button :hover{
+  background-color: #ffff;
+}
+
+#browse_btn1{
+  font-size :12px;
+  font-weight: bold;
+}
+
+#browse_btn1:hover{
+  background-color: white;
+  color: #e75e8d;
+}
+
 .most-popular {
   background-color: #1f2122;
   width: 500px;
@@ -52,6 +72,7 @@
   display: inline-block;
   border-radius: 20px;
   padding-right: 0px;
+  padding-bottom: 60px;
 }
 .heading-section > h4 {
   text-align: left;
@@ -76,6 +97,12 @@
   font-size: 15px;
   width: 90%;
 }
+footer{
+  margin-top: 50px;
+  color: #757575;
+  text-align: center;
+  font-size: 1rem;
+}
 .most-popular
   > div
   > div
@@ -91,18 +118,79 @@
 }
 .mb-negative{
   position: absolute;
-  bottom: -33px;
+  bottom: -79px;
+}
+.mb-negative2{
+  position: absolute;
+  bottom: -20px;
 }
 .mb-negative>button{
   background-color: #e75e8d;
   color: #ffff;
   border-radius: 10px;
-  padding: 2px 20px;
-  font-size: 10px;
+  padding: 10px 30px;
+  font-size: 15px;
+  font-weight: bold;
 }
 .mb-negative>button:hover{
   color: #e75e8d;
   background-color: #ffff;
+}
+
+.game-libery{
+  background-color: #1f2122;
+  border-radius: 20px;
+  width: 100%;
+  padding: 10px;
+}
+.item {
+  border-bottom: 1px solid #27292a;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+}
+.game-libery .item ul li img{
+  border-radius: 20px;
+}
+.game-libery ul,li{
+  list-style: none;
+}
+.btn-outline-secondary{
+ border-radius: 20px;
+ outline-color: #e75e8d;
+ color: #e75e8d;
+ border-color:  #e75e8d;
+ font-size: 20px;
+ padding: 10px 20px;
+}
+.btn-outline-secondary:hover{
+  background-color: #e75e8d;
+  color: white;
+}
+
+li{
+  display: inline-block;
+  width: 150px;
+  margin-top: 20px;
+}
+li h4{
+  font-size: 15px;
+  color: #ffff;
+  margin-top: 0px;
+  font-weight: bold;
+}
+.game-libery ul{
+  padding: 25px ;
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  
+}
+li span{
+  color: #757575;
+}
+.footer-btn{
+  padding: 30px 20px;
 }
 @media screen and (max-width: 615px) {
   .container {
@@ -142,5 +230,10 @@
   .most-popular > div > div > .card {
     font-size: 10px;
     padding: 5px;
+  }
+  .game-libery li:nth-last-child(1){
+    width: 100%;
+    text-align: right;
+  
   }
 }
