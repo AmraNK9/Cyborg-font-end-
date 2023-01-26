@@ -12,7 +12,12 @@
   padding: 30px;
   border-radius: 20px;
 }
-
+.main-container{
+  width: 90vw;
+}
+.w-90{
+  width: 90%;
+}
 .banner > h6 {
   font-size: 15px;
   color: #ffff;
@@ -46,6 +51,7 @@
   padding: 20px;
   display: inline-block;
   border-radius: 20px;
+  padding-right: 0px;
 }
 .heading-section > h4 {
   text-align: left;
@@ -108,6 +114,9 @@
   .most-popular > div > div > .card {
     padding: 30px;
   }
+  .most-popular{
+    padding-right: 20px
+  }
 }
 @media screen and (max-width: 767px) {
   .banner > h4 {
@@ -119,6 +128,9 @@
   }
   .most-popular > div > div > .card {
     width: 100%;
+  }
+  .most-popular{
+    padding-right: 20px;
   }
 }
 @media screen and (min-width: 809px) {
