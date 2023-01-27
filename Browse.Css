@@ -1,0 +1,153 @@
+body{
+    background-color: #1f2122;
+}
+.container{
+    width: 90vw;
+    background-color: #27292a;
+    margin-top: 20px;
+    padding: 20px;
+    border-radius: 20px;
+
+    /* flex */
+    display: flex;
+    flex-wrap: wrap;
+}
+section{
+    width: 100%;
+}
+.featuredGame{
+    background-color: #1f2122;
+    padding: 10px;
+    border-radius: 20px;
+    margin-top: 10px;
+    width: 100%;
+}
+.TopDownloaded{
+    background-color: #1f2122;
+    padding: 10px;
+    border-radius: 20px;
+    margin-top: 10px;
+    width: 100%;
+}
+
+.header-seaction{
+    margin-bottom:20px;
+}
+.header-seaction h4{
+    color: #e75e8d;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 34px;
+}
+
+h4>em{
+    color: #ffff;
+    text-decoration: underline;
+    font-style: normal;
+    font-weight: bold;
+}
+
+
+ul,li{
+    list-style: none;
+}
+
+ul{
+    padding-left: 1rem;
+}
+
+li{
+    margin-top: 10px;
+    border-bottom: 1px solid #27292a;
+    height: 100px;
+}
+
+h6{
+    color: #ffff;
+    padding-top: 6px;
+    margin-bottom: 0px;
+}
+
+.icon{
+    width: 100px;
+}
+
+.icon span{
+    color: #ffff;
+    font-size: 14px;
+}
+
+li span{
+    color: #757575;
+}
+
+li span>i{
+    margin-left: 5px;
+}
+
+.bi-star-fill{
+    color: gold;
+    margin-right: 5px;
+}
+
+.bi-download{
+    color: #e75e8d;
+}
+
+li img{
+    float: left;
+    border-radius: 20px;
+    margin-right: 20px;
+}
+
+.downloadBtn{
+padding: 12px 16px;
+border-radius: 50%;
+background-color: #27292a;
+border: none;
+top: 8px;
+right: 10px;
+}
+
+/*feature Section*/
+.card{
+    background-color: #1f2122;
+
+}
+.card img{
+    border-radius: 20px;
+    width: 100%;
+}
+.card-footer div{
+    clear: both;
+}
+.card-footer>div{
+    padding: 10px 0px;
+    color: #757575;
+}
+.card-footer>div>span:nth-child(2)>i{
+    color: #e75e8d;
+    margin-right: 5px;
+}
+.swiper{
+    color: #ffff;
+}
+/* media quarry */
+@media (min-width: 992px) { 
+    .featuredGame{
+        width: 60%;
+    }
+    .TopDownloaded{
+        width: 37%;
+    }
+ }
+
+ @media screen and (max-width:310px) {
+    .icon{
+        width: 70px;
+    }
+    .icon span{
+        font-size: 12px;
+
+    }
+    
+ }
