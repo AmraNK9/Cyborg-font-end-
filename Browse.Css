@@ -1,16 +1,20 @@
 body{
     background-color: #1f2122;
 }
-.container{
+.container1{
     width: 90vw;
     background-color: #27292a;
     margin-top: 20px;
     padding: 20px;
     border-radius: 20px;
 
-    /* flex */
-    display: flex;
-    flex-wrap: wrap;
+  
+}
+.container{
+  /* flex */
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 section{
     width: 100%;
@@ -32,6 +36,7 @@ section{
 
 .header-seaction{
     margin-bottom:20px;
+    position: relative;
 }
 .header-seaction h4{
     color: #e75e8d;
@@ -130,6 +135,19 @@ right: 10px;
 }
 .swiper{
     color: #ffff;
+}
+.How-to-start{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.header-seaction>span{
+    color: #e75e8d;
+    font-size: 20px;
+    position: absolute;
+    right: -210px;
+    top: -20px;
+    font-weight: bold;
 }
 /* media quarry */
 @media (min-width: 992px) { 
