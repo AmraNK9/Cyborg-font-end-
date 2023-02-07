@@ -11,6 +11,7 @@ navLink.forEach((el) => {
   });
 });
 
+
 setInterval(() => {
   if (localStorage.getItem("scroll-Dir") == "Down") {
     nav.classList.add("Hide-on-top");
@@ -25,3 +26,27 @@ navLink[0].addEventListener("click", (e) => {
 navLink[1].addEventListener("click", (e) => {
   iframe.src = "Browse.html";
 });
+window.onload = ()=>{
+  localStorage.setItem("scroll-Dir",'Up')
+}
+
+setInterval(()=>{
+    if(localStorage.getItem('scroll-Dir')== 'Down'){
+        nav.classList.add('Hide-on-top')
+    }
+    else{
+        nav.classList.remove('Hide-on-top')
+    }
+},300)
+//browse section
+navLink[0].addEventListener('click',(e)=>{
+    iframe.src = 'Home.html'
+})
+navLink[1].addEventListener('click',(e)=>{
+    iframe.src = 'Browse.html'
+})
+navLink[2].addEventListener('click',()=>{
+  iframe.src = 'Detail.html'
+})
+
+

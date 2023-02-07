@@ -1,0 +1,133 @@
+body{
+    background-color: #1f2122;
+}
+*{
+    color: #fff;
+    list-style: none;
+}
+.main{
+    background-color: #27292a;
+    width: 90vw;
+    padding: 60px;
+    border-radius: 20px;
+}
+.feature-banner{
+width: 100%;
+height: fit-content;
+}
+
+.mt20 {
+    margin-top: 150px;
+  }
+
+img{
+    border-radius: 20px;
+}
+.feature-banner a{
+    /* position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translateX(-70px);
+    transform: translateY(-11px); */
+    background-color: white;
+    padding: 10px 15px ;
+    border-radius: 50%;
+}
+.feature-left-img{
+    width: 100%;
+}
+.feature-right{
+    
+    position: relative;
+    background-image: url(images/feature-right.jpg);
+    border-radius: 20px;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bi-play-fill{
+    color: #e75e8d;
+}
+
+.detail-section{
+    margin:40px 0;
+
+}
+
+.detail-section>h2{
+    color: #fff;
+    text-align: center;
+}
+.content{
+    background-color: #1f2122;
+    border-radius: 20px;
+    padding: 30px;
+}
+.info{
+    border-radius: 20px;
+    background-color: #27292a;
+    display: flex;
+    padding: 30px;
+    justify-content: space-between;
+
+}
+
+h4{
+    color: #fff;
+}
+span{
+    color: #757577;
+}
+i{
+    color: #e75e8d;
+}
+.bi-star-fill{
+    color: gold;
+}
+li i{
+    text-align: center;
+}
+footer{
+    margin-top: 50px;
+    color: #757575;
+    text-align: center;
+    font-size: 1rem;
+  }
+  /*media query*/
+  @media screen and (max-width: 992px) {
+    .feature-right{
+        width: 100%;
+        height: 300px;
+    }
+    .info{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+  }
+  .color-gray{
+    color: #757577;
+  }
+
+  .Download_Fortnite_Now-btn{
+    margin-top: 20px;
+    width: 100%;
+    border-radius: 20px;
+    padding: 10px 20px;
+    text-align: center;
+    color: #e75e8d;
+    border: 1px solid #e75e8d;
+  }
+
+  @media screen and (min-width: 767px) {
+    .mt20{
+        margin-top: 100px;
+    }
+   
+  }
+  @media screen and (max-width: 767px) {
+    .detail-img{
+        width: 100%;
+    }
+   
+  }

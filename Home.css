@@ -194,7 +194,16 @@ li span{
   padding: 30px 20px;
 }
 
+.mt20 {
+  margin-top: 150px;
+}
+/*media query*/
 
+@media screen and (min-width: 767px) {
+  .mt20{
+      margin-top: 100px;
+  }
+}
 
 @media screen and (max-width: 615px) {
   .container {
