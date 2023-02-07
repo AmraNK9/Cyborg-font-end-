@@ -1,7 +1,7 @@
 body {
   background-color: #1f2122;
   scroll-snap-type: none;
-
+  padding: 0px;
 ;
 }
 li {
@@ -40,7 +40,7 @@ body > div > nav.navbar.navbar-expand-md{
 nav {
   position: fixed;
   background-color: #1f2122;
-  padding: 0px 10px;
+  padding: 0px 30px;
   transition: 0.6s;
   position: absolute;
 
@@ -79,11 +79,13 @@ nav .searchBar:active{
   font-size: 30px;
 }
 iframe{
+  margin: 0;
+  padding: 0;
   width: 100vw;
   height: 100vh;
 }
 .Hide-on-top{
-  margin-top: -100px;
+  margin-top: -130px;
 }
 @media screen and (max-width: 767px) {
   li {
@@ -102,7 +104,7 @@ iframe{
   }
   nav{
     background-color: #f7f7f7;
-    
+    margin: 0;
   }
 }
 @media screen and (max-width: 388px) {
@@ -116,7 +118,6 @@ iframe{
     display: inline-block;
     width: 50%;
   }
-  
 }
 @media screen and (max-width:827px){
   .profile>span{

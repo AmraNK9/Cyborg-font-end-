@@ -11,6 +11,9 @@ navLink.forEach((el) => {
   });
 });
 
+window.onload = ()=>{
+  localStorage.setItem("scroll-Dir",'Up')
+}
 
 setInterval(()=>{
     if(localStorage.getItem('scroll-Dir')== 'Down'){
@@ -27,4 +30,8 @@ navLink[0].addEventListener('click',(e)=>{
 navLink[1].addEventListener('click',(e)=>{
     iframe.src = 'Browse.html'
 })
+navLink[2].addEventListener('click',()=>{
+  iframe.src = 'Detail.html'
+})
+
 
