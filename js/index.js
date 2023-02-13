@@ -48,5 +48,8 @@ navLink[1].addEventListener('click',(e)=>{
 navLink[2].addEventListener('click',()=>{
   iframe.src = 'Detail.html'
 })
+navLink[3].addEventListener('click',()=>{
+  iframe.src = 'stream.html'
+})
 
 

@@ -1,0 +1,267 @@
+body {
+    background-color: #1f2122;
+  }
+  .container1 {
+    width: 90vw;
+    background-color: #27292a;
+    margin-top: 20px;
+    padding: 20px;
+    border-radius: 20px;
+  }
+  .container {
+    /* flex */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  section {
+    width: 100%;
+  }
+  .featuredGame {
+    background-color: #1f2122;
+    padding: 10px;
+    border-radius: 20px;
+    margin-top: 10px;
+    width: 100%;
+  }
+  .TopDownloaded {
+    background-color: #1f2122;
+    padding: 10px;
+    border-radius: 20px;
+    margin-top: 10px;
+    width: 100%;
+  }
+  
+  .header-seaction {
+    margin-bottom: 20px;
+  }
+  .header-seaction h4 {
+    color: #e75e8d;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    font-size: 34px;
+  }
+  
+  h4 > em {
+    color: #ffff;
+    text-decoration: underline;
+    font-style: normal;
+    font-weight: bold;
+  }
+  
+  ul,
+  li {
+    list-style: none;
+  }
+  
+  ul {
+    padding-left: 1rem;
+  }
+  
+  li {
+    margin-top: 10px;
+    border-bottom: 1px solid #27292a;
+    height: 100px;
+  }
+  
+  h6 {
+    color: #ffff;
+    padding-top: 6px;
+    margin-bottom: 0px;
+  }
+  
+  .icon {
+    width: 100px;
+  }
+  
+  .icon span {
+    color: #ffff;
+    font-size: 14px;
+  }
+  
+  li span {
+    color: #757575;
+  }
+  
+  li span > i {
+    margin-left: 5px;
+  }
+  
+  .bi-star-fill {
+    color: gold;
+    margin-right: 5px;
+  }
+  
+  .bi-download {
+    color: #e75e8d;
+  }
+  
+  li img {
+    float: left;
+    
+    border-radius: 50%;
+    margin-right: 20px;
+  }
+  
+  .downloadBtn {
+    padding: 12px 16px;
+    border-radius: 50%;
+    background-color: #27292a;
+    border: none;
+    top: 8px;
+    right: 10px;
+  }
+  
+  /*feature Section*/
+  .card {
+    background-color: #1f2122;
+  }
+  .card img {
+    border-radius: 20px;
+    width: 100%;
+  }
+  .card-footer div {
+    clear: both;
+  }
+  .card-footer > div {
+    padding: 10px 0px;
+    color: #757575;
+  }
+  .card-footer > div > span:nth-child(2) > i {
+    color: #e75e8d;
+    margin-right: 5px;
+  }
+  .swiper {
+    color: #ffff;
+  }
+  .How-to-start {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  .header-seaction > span {
+    color: #e75e8d;
+    font-size: 80%;
+    position: absolute;
+    right: 10px;
+    top: -20px;
+    font-weight: bold;
+  }
+  .How-to-start {
+    position: relative;
+  }
+  .card-group1 {
+    background-color: #27292a;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .How-to-start-card {
+    background-color: transparent;
+    border: none;
+    padding: 30px;
+  }
+  .How-to-start-card > .card-header {
+    color: #ffff;
+    border: 1px solid #444;
+    border-radius: 20px;
+    height: 300px;
+  }
+  .p-color {
+    color: #666;
+  }
+  .icon > img {
+    border-radius: 50%;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    max-width: 60px;
+  }
+  .btn.Go_To_Profile {
+    background-color: #e75e8d;
+    color: #ffff;
+    border-radius: 20px;
+    padding: 10px 20px;
+  }
+  .btn.Go_To_Profile:hover {
+    color: #e75e8d;
+    background-color: #ffff;
+  }
+  .bi-plus{
+    color: #e75e8d;
+  }
+  .bi-dash{
+    color: #e75e8d;
+  }
+  .Most_Popular_live_stream_wrapper {
+    background-color: #1f2122;
+    padding: 20px 10px;
+    border-radius: 20px;
+  }
+  
+  .stream-img {
+    max-width: 100%;
+    object-fit: contain;
+  }
+  img.avatar-img {
+    width: 46px;
+    height: 46px;
+  }
+  .Pink {
+    color: #e75e8d;
+    float: right;
+  }
+  .Discover_All_string {
+    bottom: -15px;
+  }
+  footer {
+    margin-top: 50px;
+    color: #757575;
+    text-align: center;
+    font-size: 1rem;
+  }
+  
+  .mt20 {
+    margin-top: 150px;
+  }
+  /* media quarry */
+  @media screen and (min-width: 767px) {
+      .mt20{
+          margin-top: 100px;
+      }
+  }
+  @media (min-width: 992px) {
+    .featuredGame {
+      width: 60%;
+    }
+    .TopDownloaded {
+      width: 37%;
+    }
+    .stream_card_width {
+      width: 100%;
+    }
+  }
+  @media screen and (min-width: 1360px) {
+    .stream_card_width {
+      width: fit-content;
+    }
+  }
+  
+  @media screen and (max-width: 850px) {
+    .How-to-start.How-to-start-card {
+      width: 100%;
+    }
+    .card-group1 > .card {
+      width: 100%;
+    }
+    .How-to-start-card > .card-header {
+      height: fit-content;
+    }
+  }
+  
+  @media screen and (max-width: 310px) {
+    .icon {
+      width: 70px;
+    }
+    .icon span {
+      font-size: 12px;
+    }
+  }
+  
