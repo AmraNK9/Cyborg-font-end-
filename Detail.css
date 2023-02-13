@@ -105,7 +105,6 @@ section{
     text-decoration: underline;
 }
 .other_related-col{
-    height: 100px;
     width: 50%;
     padding: 10px;
 }
@@ -147,6 +146,7 @@ footer{
 
   .item{
     display: block;
+    margin-bottom: 30px;
   }
   .item>img{
     display: inline;
@@ -161,6 +161,9 @@ footer{
   .item>ul{
     top: 20px;
     right: 10px;
+  }
+  .clear-both{
+    clear: both;
   }
   @media screen and (min-width: 767px) {
     .mt20{
