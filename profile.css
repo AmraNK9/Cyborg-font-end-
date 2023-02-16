@@ -1,0 +1,320 @@
+body{
+    background-color: #1f2122;
+  }
+  .banner-img {
+    background-image: url("images/banner-bg.jpg");
+    width: 100%;
+    height: 400px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 20px;
+    padding: 20px;
+  }
+  .container {
+    background-color: #27292a;
+    width: 600px;
+    padding: 30px;
+    border-radius: 20px;
+  }
+  .main-container{
+    width: 90vw;
+  }
+  .w-90{
+    width: 90%;
+  }
+  .banner > h6 {
+    font-size: 15px;
+    color: #ffff;
+    font-weight: 400;
+    margin-bottom: 20px;
+    font-family: 'Courier New', Courier, monospace;
+  }
+  .banner > h4 > em {
+    font-size: 40px;
+    font-weight: bolder;
+    color: #ffff;
+    font-style: normal;
+  }
+  .banner > h4 {
+    text-transform: uppercase;
+    font-size: 40px;
+    color: #ffff;
+    margin-bottom: 20px;
+    width: 100%;
+    font-weight: bold;
+  }
+  .banner > button {
+    text-transform: uppercase;
+    background-color: #e75e8d;
+    color: #ffff;
+    border-radius: 20px;
+    padding: 15px 20px;
+    font-size: 10px;
+    border: none;
+  }
+  .banner  button :hover{
+    background-color: #ffff;
+  }
+  
+  #browse_btn1{
+    font-size :12px;
+    font-weight: bold;
+  }
+  
+  #browse_btn1:hover{
+    background-color: white;
+    color: #e75e8d;
+  }
+  
+  .most-popular {
+    background-color: #1f2122;
+    width: 500px;
+    padding: 20px;
+    display: inline-block;
+    border-radius: 20px;
+    padding-right: 0px;
+    padding-bottom: 60px;
+  }
+  .heading-section > h4 {
+    text-align: left;
+    color: #e75e8d;
+  }
+  .heading-section {
+    margin-bottom: 20px;
+  }
+  .heading-section > h4 > em {
+    color: #ffff;
+    font-style: normal;
+    text-decoration: underline;
+  }
+  .most-popular > div > div > .card > .card-body > img {
+    object-fit: contain;
+    border-radius: 10px;
+  }
+  .most-popular > div > div > .card {
+    background-color: #27292a;
+    border-radius: 20px;
+    color: #ffff;
+    font-size: 15px;
+    width: 90%;
+  }
+  footer{
+    margin-top: 50px;
+    color: #757575;
+    text-align: center;
+    font-size: 1rem;
+  }
+  .most-popular
+    > div
+    > div
+    > .card
+    > .card-footer
+    > div:nth-child(2)
+    > span:nth-child(1) {
+    font-weight: 300;
+    color: #757575;
+  }
+  .most-popular > div > div > .card > .card-footer > div:nth-child(1) > i {
+    color: gold;
+  }
+  .mb-negative{
+    position: absolute;
+    bottom: -79px;
+  }
+  .mb-negative2{
+    position: absolute;
+    bottom: -20px;
+  }
+  .mb-negative>button{
+    background-color: #e75e8d;
+    color: #ffff;
+    border-radius: 10px;
+    padding: 10px 30px;
+    font-size: 15px;
+    font-weight: bold;
+  }
+  .mb-negative>button:hover{
+    color: #e75e8d;
+    background-color: #ffff;
+  }
+  
+  .game-libery{
+    background-color: #1f2122;
+    border-radius: 20px;
+    width: 100%;
+    padding: 10px;
+  }
+  .item {
+    border-bottom: 1px solid #27292a;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+  }
+  .game-libery .item ul li img{
+    border-radius: 20px;
+  }
+  .game-libery ul,li{
+    list-style: none;
+  }
+  .btn-outline-secondary{
+   border-radius: 20px;
+   outline-color: #e75e8d;
+   color: #e75e8d;
+   border-color:  #e75e8d;
+   font-size: 20px;
+   padding: 10px 20px;
+  }
+  .btn-outline-secondary:hover{
+    background-color: #e75e8d;
+    color: white;
+  }
+  
+  li{
+    display: inline-block;
+    width: 150px;
+    margin-top: 20px;
+  }
+  li h4{
+    font-size: 15px;
+    color: #ffff;
+    margin-top: 0px;
+    font-weight: bold;
+  }
+  .game-libery ul{
+    padding: 25px ;
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    
+  }
+  li span{
+    color: #757575;
+  }
+  .footer-btn{
+    padding: 30px 20px;
+  }
+  
+  .mt20 {
+    margin-top: 150px;
+  }
+
+  .play{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: white;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+  }
+  .bi-play{
+    color: #e75e8d;
+  }
+
+  .b-23{
+    border-radius: 23px;
+  }
+  /*media query*/
+  .main-info span{
+    color: #ffff;
+    border-radius: 25px;
+    padding: 10px 20px;
+    background-color: #e75e8d;
+  }
+  .main-info h4{
+    color: #ffff;
+    margin-top: 20px;
+  }
+  .main-info p{
+    color: #757575;
+    margin-top: 20px;
+  }
+  .main-border-button{
+    margin-top: 25px;
+    text-align: center;
+    border: 1px solid #e75e8d;
+    padding: 10px 25px;
+    color: #e75e8d;
+    border-radius: 25px;
+  }
+  .main-border-button:hover{
+    background-color: #e75e8d;
+    color: #ffff;
+  }
+  .main-profile ul{
+    background-color: #27292a;
+    border-radius: 23px;
+    padding: 30px;
+  }
+  .main-profile ul li{
+    border-bottom: 1px solid #666;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    font-size: 14px;
+    color: #666;
+  }
+  .main-profile ul li span{
+    color: #e75e8d;
+    float: right;
+    font-weight: 500;
+  }
+
+  .line{
+    width: 90%;
+    height: 20px;
+    border-bottom: 1px solid #666;
+    margin: 30px auto;
+  }
+  @media screen and (min-width: 767px) {
+    .mt20{
+        margin-top: 100px;
+    }
+  }
+  
+  @media screen and (max-width: 615px) {
+    .container {
+      width: 99%;
+    }
+    .banner {
+      width: 80vw;
+    }
+    .most-popular > div > div > .card {
+      padding: 30px;
+    }
+    .most-popular{
+      padding-right: 20px
+    }
+  }
+  @media screen and (max-width: 767px) {
+    .banner > h4 {
+      width: 300px;
+      text-align: center;
+    }
+    .banner {
+      text-align: center;
+    }
+    .most-popular > div > div > .card {
+      width: 100%;
+    }
+    .most-popular{
+      padding-right: 20px;
+    }
+  }
+  @media screen and (min-width: 809px) {
+    #myh4 {
+      text-align: left;
+    }
+  }
+  @media screen and (min-width: 991px) {
+    .most-popular > div > div > .card {
+      font-size: 10px;
+      padding: 5px;
+    }
+    .game-libery li:nth-last-child(1){
+      width: 100%;
+      text-align: right;
+    
+    }
+  }
+  

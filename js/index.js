@@ -52,4 +52,8 @@ navLink[3].addEventListener('click',()=>{
   iframe.src = 'stream.html'
 })
 
+const profile = document.querySelector('.profile')
+profile.addEventListener('click',()=>{
+  iframe.src = 'profile.html'
+})
 
